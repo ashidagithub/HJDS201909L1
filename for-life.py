@@ -6,7 +6,7 @@ for myday in range(1, 6):
     print('Weekday (%d) is a class day !' % myday)
 
     # daily life at Mon. to Fri.
-    for mytime in range(0, 7):
+    for mytime in range(0, 8):
         action = '  %02dClock... Sleeping' % mytime
         print(action)
 
@@ -14,7 +14,7 @@ for myday in range(1, 6):
         action = '  %02dClock... Study at school' % mytime
         print(action)
 
-    for mytime in range(17, 25):
+    for mytime in range(16, 25):
         action = '  %02dClock... Study at Home' % mytime
         print(action)
 
